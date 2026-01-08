@@ -70,6 +70,8 @@
       - MobState
       - SpaceGarbage
       tags:
+      - Pouch #RMC Change, reduces lag. 
+      - CMMagazineRifleM54C #RMC Change, reduces lag. 
       - Trash
       - Recyclable
     blacklist:
@@ -115,3 +117,7 @@
   - type: Speech
     speechVerb: Robotic
     speechSounds: SyndieBorg
+    #RMC14 change
+  - type: ApcPowerReceiver #This one is original SS14 power system 
+    powerLoad: 0 #Changed here to 0, so it won't require any power source, analogue of RMC14     autolathe
+    #RMC14 End-change
